@@ -10,6 +10,14 @@ public class MyTester {
 		long actual;
 		MyCalculator calc = new MyCalculator();
 		
+		actual = calc.nfactorial(1);
+		assertEquals("test", 1, actual);
+		actual = calc.nfactorial(2);
+		assertEquals("test", 2, actual);
+		actual = calc.nfactorial(3);
+		assertEquals("test", 6, actual);
+		actual = calc.nfactorial(4);
+		assertEquals("test", 24, actual);
 		actual = calc.nfactorial(5);
 		assertEquals("test", 120, actual);
 	}
